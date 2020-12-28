@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('litecore-build');
+var okcoreTasks = require('okcore-build');
 
-litecoreTasks('p2p', {skipBrowser: true});
+okcoreTasks('p2p', {skipBrowser: true});
 
 gulp.task('default', ['lint', 'coverage']);

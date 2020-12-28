@@ -3215,9 +3215,9 @@ liftoff@^2.1.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
-"litecore-build@git://github.com/litecoin-project/litecore-build.git":
+"okcore-build@git://github.com/okcashpro/okcore-build.git":
   version "0.5.5"
-  resolved "git://github.com/litecoin-project/litecore-build.git#9d1d5a9a2530d9675df47c9af6a2e80cb422b823"
+  resolved "git://github.com/okcashpro/okcore-build.git#9d1d5a9a2530d9675df47c9af6a2e80cb422b823"
   dependencies:
     brfs "^1.2.0"
     browserify "~13.1.0"
@@ -3244,9 +3244,9 @@ liftoff@^2.1.0:
     run-sequence "^1.0.2"
     zuul "1.16.3"
 
-litecore-lib@^0.13.19:
+okcore-lib@^0.13.19:
   version "0.13.21"
-  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
+  resolved "https://registry.yarnpkg.com/okcore-lib/-/okcore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
   dependencies:
     bn.js "=2.0.4"
     bs58 "=2.0.0"

@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var Message = P2P.Messages.Message;
-var Networks = require('litecore-lib').Networks;
+var Networks = require('okcore-lib').Networks;
 
 describe('Message', function() {
 
