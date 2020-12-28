@@ -41,7 +41,7 @@ describe('BloomFilter', function() {
 
     var filter = BloomFilter.create(2, 0.001, 0, BloomFilter.BLOOM_UPDATE_ALL);
     filter.insert(publicKey.toBuffer());
-    filter.insert(bitcore.crypto.Hash.sha256ripemd160(publicKey.toBuffer()));
+    filter.insert(okcore.crypto.Hash.sha256ripemd160(publicKey.toBuffer()));
 
     var expectedFilter = BloomFilter.fromBuffer(ParseHex('038fc16b080000000000000001'));
 

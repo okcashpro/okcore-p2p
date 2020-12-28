@@ -8,8 +8,8 @@ var sinon = require('sinon');
 
 var bitcore = require('okcore-lib');
 var _ = bitcore.deps._;
-var Random = bitcore.crypto.Random;
-var BN = bitcore.crypto.BN;
+var Random = okcore.crypto.Random;
+var BN = okcore.crypto.BN;
 var BufferUtil = bitcore.util.buffer;
 var p2p = require('../');
 var Peer = p2p.Peer;
