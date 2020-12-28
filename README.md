@@ -7,7 +7,7 @@ okcore P2P
 [![Build Status](https://img.shields.io/travis/okcashpro/okcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/okcashpro/okcore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/okcashpro/okcore-p2p.svg?style=flat-square)](https://coveralls.io/r/okcashpro/okcore-p2p?branch=master)
 
-`okcore-p2p` adds [Litecoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for okcore.
+`okcore-p2p` adds [Okcash protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for okcore.
 
 See [the main okcore repo](https://github.com/okcashpro/okcore) for more information.
 
@@ -16,7 +16,7 @@ See [the main okcore repo](https://github.com/okcashpro/okcore) for more informa
 ```sh
 npm install okcore-p2p
 ```
-In order to connect to the Litecoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the Okcash network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
 var Peer = require('okcore-p2p').Peer;
