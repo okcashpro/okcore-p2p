@@ -3244,9 +3244,9 @@ liftoff@^2.1.0:
     run-sequence "^1.0.2"
     zuul "1.16.3"
 
-okcore-lib@^0.13.19:
+okcore-lib@git://github.com/okcashpro/okcore-lib.git:
   version "0.13.21"
-  resolved "https://registry.yarnpkg.com/okcore-lib/-/okcore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
+  resolved "git://github.com/okcashpro/okcore-lib.git#a56bfca333b641c9cffb3d3e266de83132ab0697"
   dependencies:
     bn.js "=2.0.4"
     bs58 "=2.0.0"
